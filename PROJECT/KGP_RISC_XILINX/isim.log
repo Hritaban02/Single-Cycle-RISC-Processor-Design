@@ -1,0 +1,109 @@
+ISim log file
+Running: /home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/TestBench_Datapath_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/TestBench_Datapath_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module TestBench_Datapath.uut.IM.SROM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module TestBench_Datapath.uut.DM.SRAM.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+
+ +++ [TEST SUITE 1] ADD & ADD IMMED. +++
+ (ADD) ALU Oper 1:           0 | ALU Oper 2:           4 | ALU Result:           4 
+ (ADDI) ALU Oper 1:           0 | ALU Oper 2:           9 | ALU Result:           9 
+ ALU Oper 1:           4 | ALU Oper 2:           9 | ALU Result:          13 
+ DataMem WriteData:          13 | DataMem ReadData:         471
+ DataMem WriteData:           9 | DataMem ReadData:          13
+ DataMem WriteData:          13 | DataMem ReadData:           9
+
+ +++ [TEST SUITE 2] COMP & COMP IMMED. +++
+ (COMP) ALU Oper 1:           0 | ALU Oper 2:          13 | ALU Result:         -13 
+ (COMPI) ALU Oper 1:           0 | ALU Oper 2:        -123 | ALU Result:         123 
+ DataMem WriteData:         -13 | DataMem ReadData:         615
+ DataMem WriteData:         123 | DataMem ReadData:         -13
+ DataMem WriteData:         123 | DataMem ReadData:         123
+
+ +++ [TEST SUITE 3] AND & XOR OPS +++
+ (AND) ALU Oper 1:          13 | ALU Oper 2:         123 | ALU Result:           9 
+ (XOR) ALU Oper 1:           9 | ALU Oper 2:         -13 | ALU Result:          -6 
+ DataMem WriteData:           9 | DataMem ReadData:         615
+ DataMem WriteData:          -6 | DataMem ReadData:           9
+ DataMem WriteData:           0 | DataMem ReadData:          -6
+
+ +++ [TEST SUITE 4] SHIFT (VARIABLE & IMMED.) OPS +++
+ (SHRL) ALU Oper 1:          -6 | ALU Oper 2:           2 | ALU Result:  1073741822
+ (SHLL) ALU Oper 1:  1073741822 | ALU Oper 2:           5 | ALU Result:         -64
+ (ADDI) ALU Oper 1:           0 | ALU Oper 2:     -117788 | ALU Result:     -117788
+ (SHRA) ALU Oper 1:     -117788 | ALU Oper 2:           3 | ALU Result:      -14724 
+ (ADDI) ALU Oper 1:           0 | ALU Oper 2:           6 | ALU Result:           6 
+ (SHRAV) ALU Oper 1:      -14724 | ALU Oper 2:           6 | ALU Result:        -231 
+ DataMem WriteData:         -64 | DataMem ReadData:         615
+ DataMem WriteData:        -231 | DataMem ReadData:         -64
+ DataMem WriteData:           6 | DataMem ReadData:        -231
+ DataMem WriteData:           0 | DataMem ReadData:           6
+
+ +++ [TEST SUITE 5] BRANCH INSTRUCTIONS WITH PSEUDO-DIRECT ADDRESSING +++
+ (PC BEFORE b) PC: 00000000000000000000000001011000 [        88]
+ (b) Pseudo-Direct Address: 00000000000000000000000001110100 [       116]
+ (PC AFTER b) PC: 00000000000000000000000001110100 [       116]
+
+ (PC BEFORE bl) PC: 00000000000000000000000001110100 [       116]
+ ($ra BEFORE bl) $ra: 00000000000000000000000000000000 [         0]
+ (bl) Pseudo-Direct Address: 00000000000000000000000010001100 [       140]
+ (PC AFTER bl) PC: 00000000000000000000000010001100 [       140]
+ ($ra AFTER bl) $ra: 00000000000000000000000001111000 [       120]
+
+ (ADDI) ALU Oper 1:           6 | ALU Oper 2:     -646468 | ALU Result:     -646462 | Carry: 0
+ (PC BEFORE bcy) PC: 00000000000000000000000010010000 [       144]
+ (PC AFTER bcy) PC: 00000000000000000000000010010100 [       148]
+
+ (ADDI) ALU Oper 1:     -646462 | ALU Oper 2:       -7492 | ALU Result:     -653954 | Carry: 1
+ (PC BEFORE bcy) PC: 00000000000000000000000010011000 [       152]
+ (PC AFTER bcy) PC: 00000000000000000000000010100100 [       164]
+
+ +++ [TEST SUITE 6] BRANCH INSTRUCTIONS WITH PC-RELATIVE ADDRESSING +++
+ (ADDI) ALU Oper 1:           0 | ALU Oper 2:       -6212 | ALU Result:       -6212
+ (PC BEFORE bltz) PC: 00000000000000000000000010101000 [       168]
+ (flag) rs:       -6212
+ (bltz) PC-Relative Address: 00000000000000000000000010111000 [       184]
+ (PC AFTER bltz) PC: 00000000000000000000000010111000 [       184]
+
+ (PC BEFORE bnz) PC: 00000000000000000000000010111000 [       184]
+ (flag) rs:           0
+ (bnz) PC-Relative Address: 00000000000000000000000011000100 [       196]
+ (PC AFTER bnz) PC: 00000000000000000000000010111100 [       188]
+
+ (PC BEFORE bz) PC: 00000000000000000000000010111100 [       188]
+ (flag) rs:           0
+ (bz) PC-Relative Address: 00000000000000000000000011001100 [       204]
+ (PC AFTER bz) PC: 00000000000000000000000011001100 [       204]
+
+ (PC BEFORE br) PC: 00000000000000000000000011001100 [       204]
+ (Jump Address in Reg.) $ra: 00000000000000000000000001111000 [       120]
+ (PC AFTER br) PC: 00000000000000000000000001111000 [       120]
+
+ +++ [TEST SUITE 7] LOAD & STORE INSTRUCTIONS +++
+ ($11 BEFORE lw) $11: 4294961084
+ ($11 AFTER lw) $11:        659
+ (addi) $30:      66720
+
+ (sw) [Store $6 at 0($30)]  $6: 4294967232
+ ($11 BEFORE sw) $11:        659
+ ($11 AFTER sw) $11:        659
+
+ ($11 BEFORE lw from 0($30)) $11:        659
+ ($11 AFTER lw from 0($30)) $11: 4294967232
+
+# exit 0

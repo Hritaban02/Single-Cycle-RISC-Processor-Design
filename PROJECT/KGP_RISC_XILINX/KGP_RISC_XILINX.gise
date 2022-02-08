@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="KGP_RISC_XILINX.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestBench_Datapath_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestBench_Datapath_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TestBench_Datapath_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestBench_Datapath_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1636722280" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1636722280">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1636722280" xil_pn:in_ck="-4190520240769698338" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1636722280">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.v"/>
+      <outfile xil_pn:name="ALU_Control.v"/>
+      <outfile xil_pn:name="Barrel_Shifter.v"/>
+      <outfile xil_pn:name="BranchComparisonSuccess.v"/>
+      <outfile xil_pn:name="CLA32BitNoCarry.v"/>
+      <outfile xil_pn:name="CLA_16_bit.v"/>
+      <outfile xil_pn:name="CLA_32_bit.v"/>
+      <outfile xil_pn:name="CLA_4_bit.v"/>
+      <outfile xil_pn:name="ConcatenateHigh4Low28.v"/>
+      <outfile xil_pn:name="Controller.v"/>
+      <outfile xil_pn:name="DFF.v"/>
+      <outfile xil_pn:name="DFF_NEG.v"/>
+      <outfile xil_pn:name="D_Flip_Flop.v"/>
+      <outfile xil_pn:name="DataMemory.v"/>
+      <outfile xil_pn:name="Datapath.v"/>
+      <outfile xil_pn:name="InstructionMemory.v"/>
+      <outfile xil_pn:name="KGPRISC.v"/>
+      <outfile xil_pn:name="LeftShiftTwoPlacesWidth21.v"/>
+      <outfile xil_pn:name="LeftShiftTwoPlacesWidth26.v"/>
+      <outfile xil_pn:name="LookAhead_Carry_Unit_Level_1.v"/>
+      <outfile xil_pn:name="LookAhead_Carry_Unit_Level_2.v"/>
+      <outfile xil_pn:name="Mux2to1.v"/>
+      <outfile xil_pn:name="Mux2to1Width32.v"/>
+      <outfile xil_pn:name="Mux3to1Width32.v"/>
+      <outfile xil_pn:name="Mux3to1Width5.v"/>
+      <outfile xil_pn:name="Mux5to1Width32.v"/>
+      <outfile xil_pn:name="PadLeadingZeros6to32.v"/>
+      <outfile xil_pn:name="ProgramCounter.v"/>
+      <outfile xil_pn:name="Register.v"/>
+      <outfile xil_pn:name="RegisterFile.v"/>
+      <outfile xil_pn:name="RegisterNeg.v"/>
+      <outfile xil_pn:name="SignExtension16to32.v"/>
+      <outfile xil_pn:name="SignExtension21to32.v"/>
+      <outfile xil_pn:name="SignExtension23to32.v"/>
+      <outfile xil_pn:name="TestBench_ALU.v"/>
+      <outfile xil_pn:name="TestBench_ALUControl.v"/>
+      <outfile xil_pn:name="TestBench_BinaryToDecimal.v"/>
+      <outfile xil_pn:name="TestBench_ComputeGCD.v"/>
+      <outfile xil_pn:name="TestBench_Controller.v"/>
+      <outfile xil_pn:name="TestBench_DataMemory.v"/>
+      <outfile xil_pn:name="TestBench_Datapath.v"/>
+      <outfile xil_pn:name="TestBench_InstructionMemory.v"/>
+      <outfile xil_pn:name="TestBench_RegisterFile.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1636722286" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3390550681192493379" xil_pn:start_ts="1636722286">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1636722286" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1437197066406108251" xil_pn:start_ts="1636722286">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1636722286" xil_pn:in_ck="-3212601451694235930" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6179077420763880946" xil_pn:start_ts="1636722286">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/SINGLE_PORT_RAM.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/SINGLE_PORT_RAM.v"/>
+      <outfile xil_pn:name="ipcore_dir/SINGLE_PORT_ROM.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/SINGLE_PORT_ROM.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1636722286" xil_pn:in_ck="8148563112708012764" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1636722286">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.v"/>
+      <outfile xil_pn:name="ALU_Control.v"/>
+      <outfile xil_pn:name="Barrel_Shifter.v"/>
+      <outfile xil_pn:name="BranchComparisonSuccess.v"/>
+      <outfile xil_pn:name="CLA32BitNoCarry.v"/>
+      <outfile xil_pn:name="CLA_16_bit.v"/>
+      <outfile xil_pn:name="CLA_32_bit.v"/>
+      <outfile xil_pn:name="CLA_4_bit.v"/>
+      <outfile xil_pn:name="ConcatenateHigh4Low28.v"/>
+      <outfile xil_pn:name="Controller.v"/>
+      <outfile xil_pn:name="DFF.v"/>
+      <outfile xil_pn:name="DFF_NEG.v"/>
+      <outfile xil_pn:name="D_Flip_Flop.v"/>
+      <outfile xil_pn:name="DataMemory.v"/>
+      <outfile xil_pn:name="Datapath.v"/>
+      <outfile xil_pn:name="InstructionMemory.v"/>
+      <outfile xil_pn:name="KGPRISC.v"/>
+      <outfile xil_pn:name="LeftShiftTwoPlacesWidth21.v"/>
+      <outfile xil_pn:name="LeftShiftTwoPlacesWidth26.v"/>
+      <outfile xil_pn:name="LookAhead_Carry_Unit_Level_1.v"/>
+      <outfile xil_pn:name="LookAhead_Carry_Unit_Level_2.v"/>
+      <outfile xil_pn:name="Mux2to1.v"/>
+      <outfile xil_pn:name="Mux2to1Width32.v"/>
+      <outfile xil_pn:name="Mux3to1Width32.v"/>
+      <outfile xil_pn:name="Mux3to1Width5.v"/>
+      <outfile xil_pn:name="Mux5to1Width32.v"/>
+      <outfile xil_pn:name="PadLeadingZeros6to32.v"/>
+      <outfile xil_pn:name="ProgramCounter.v"/>
+      <outfile xil_pn:name="Register.v"/>
+      <outfile xil_pn:name="RegisterFile.v"/>
+      <outfile xil_pn:name="RegisterNeg.v"/>
+      <outfile xil_pn:name="SignExtension16to32.v"/>
+      <outfile xil_pn:name="SignExtension21to32.v"/>
+      <outfile xil_pn:name="SignExtension23to32.v"/>
+      <outfile xil_pn:name="TestBench_ALU.v"/>
+      <outfile xil_pn:name="TestBench_ALUControl.v"/>
+      <outfile xil_pn:name="TestBench_BinaryToDecimal.v"/>
+      <outfile xil_pn:name="TestBench_ComputeGCD.v"/>
+      <outfile xil_pn:name="TestBench_Controller.v"/>
+      <outfile xil_pn:name="TestBench_DataMemory.v"/>
+      <outfile xil_pn:name="TestBench_Datapath.v"/>
+      <outfile xil_pn:name="TestBench_InstructionMemory.v"/>
+      <outfile xil_pn:name="TestBench_RegisterFile.v"/>
+      <outfile xil_pn:name="ipcore_dir/SINGLE_PORT_RAM.v"/>
+      <outfile xil_pn:name="ipcore_dir/SINGLE_PORT_ROM.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1636722292" xil_pn:in_ck="8148563112708012764" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5806763840664322313" xil_pn:start_ts="1636722286">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TestBench_Datapath_beh.prj"/>
+      <outfile xil_pn:name="TestBench_Datapath_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1636722293" xil_pn:in_ck="-4701171955933303883" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4292432449379599756" xil_pn:start_ts="1636722292">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TestBench_Datapath_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+    </transform>
+    <transform xil_pn:name="TRAN_SubProjectAbstractToPreProxy">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

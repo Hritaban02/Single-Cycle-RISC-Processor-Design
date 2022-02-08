@@ -1,0 +1,95 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/TestBench_Datapath_isim_beh.exe -prj /home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/TestBench_Datapath_beh.prj work.TestBench_Datapath work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/LookAhead_Carry_Unit_Level_1.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/CLA_4_bit.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/Mux2to1.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/LookAhead_Carry_Unit_Level_2.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/DFF_NEG.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/DFF.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/CLA_16_bit.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/RegisterNeg.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/Register.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/ipcore_dir/SINGLE_PORT_ROM.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/ipcore_dir/SINGLE_PORT_RAM.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/D_Flip_Flop.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/CLA_32_bit.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/Barrel_Shifter.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/SignExtension23to32.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/SignExtension21to32.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/SignExtension16to32.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/RegisterFile.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/ProgramCounter.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/PadLeadingZeros6to32.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/Mux5to1Width32.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/Mux3to1Width5.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/Mux3to1Width32.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/Mux2to1Width32.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/LeftShiftTwoPlacesWidth26.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/LeftShiftTwoPlacesWidth21.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/InstructionMemory.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/DataMemory.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/Controller.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/ConcatenateHigh4Low28.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/CLA32BitNoCarry.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/BranchComparisonSuccess.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/ALU_Control.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/ALU.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/Datapath.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/TestBench_Datapath.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 97856 KB
+Fuse CPU Usage: 1130 ms
+Compiling module Controller
+Compiling module ProgramCounter
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module SINGLE_PORT_ROM
+Compiling module InstructionMemory
+Compiling module DFF
+Compiling module Register
+Compiling module DFF_NEG
+Compiling module RegisterNeg
+Compiling module RegisterFile
+Compiling module Mux3to1Width5
+Compiling module SignExtension16to32
+Compiling module SignExtension21to32
+Compiling module PadLeadingZeros6to32
+Compiling module Mux5to1Width32
+Compiling module ALU_Control
+Compiling module Mux2to1
+Compiling module CLA_4_bit
+Compiling module LookAhead_Carry_Unit_Level_1
+Compiling module CLA_16_bit
+Compiling module LookAhead_Carry_Unit_Level_2
+Compiling module CLA_32_bit
+Compiling module Barrel_Shifter
+Compiling module D_Flip_Flop
+Compiling module ALU
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module SINGLE_PORT_RAM
+Compiling module DataMemory
+Compiling module Mux3to1Width32
+Compiling module CLA32BitNoCarry
+Compiling module LeftShiftTwoPlacesWidth26
+Compiling module ConcatenateHigh4Low28
+Compiling module LeftShiftTwoPlacesWidth21
+Compiling module SignExtension23to32
+Compiling module BranchComparisonSuccess
+Compiling module Mux2to1Width32
+Compiling module Datapath
+Compiling module TestBench_Datapath
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 43 Verilog Units
+Built simulation executable /home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/TestBench_Datapath_isim_beh.exe
+Fuse Memory Usage: 104456 KB
+Fuse CPU Usage: 1230 ms
+GCC CPU Usage: 2190 ms

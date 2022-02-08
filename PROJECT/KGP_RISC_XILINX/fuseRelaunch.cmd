@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/TestBench_Datapath_isim_beh.exe" -prj "/home/ise/Desktop/Computer Oraganization Laboratory/KGP_RISC_XILINX/TestBench_Datapath_beh.prj" "work.TestBench_Datapath" "work.glbl" 
