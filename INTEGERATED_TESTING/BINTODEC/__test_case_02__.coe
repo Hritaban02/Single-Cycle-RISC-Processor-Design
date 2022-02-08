@@ -1,0 +1,9 @@
+memory_initialization_radix = 10 ;
+memory_initialization_vector = 
+4,
+1,
+1,
+0,
+1,
+0
+;
